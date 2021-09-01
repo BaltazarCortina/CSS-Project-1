@@ -525,7 +525,97 @@ footer p {
 }
 
 @media screen and (max-width: 900px) {
-    body {
+    li.navbar {
         display: none;
+    }
+    
+    .menu li button {
+        margin-right: 0;
+    }
+    
+    .home h1 {
+        font-size: 28px;
+    }
+
+    .home p {
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    .steps-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .step-box {
+        width: 100%;
+    }
+
+    .selling-points {
+        padding: 16px;
+    }
+
+    .points-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .point {
+        width: 100%;
+    }
+    
+    .reviews {
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    .reviews .section-title {
+        font-size: 28px;
+    }
+
+    .reviews-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .review {
+        width: 100%;
+        margin: 16px 0;
+        box-sizing: border-box;
+    }
+
+    .subscribe {
+        flex-wrap: wrap;
+    }
+
+    .left-section {
+        width: 100%;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+
+    .right-section h2 {
+        font-size: 28px;
+    }
+
+    .subscribe-text-wrapper {
+        margin: 16px;
+    }
+
+    .stats-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .stat-box {
+        width: 100%;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+        padding: 0 16px 16px;
+        box-sizing: border-box;
+    }
+
+    .address, .contact-form {
+        width: 100%;
     }
 }
