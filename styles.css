@@ -519,6 +519,11 @@ footer p {
     color: #8b8b99;
 }
 
+.contact-form input[type="text"]:focus, .contact-form input[type="email"]:focus, .contact-form textarea:focus {
+    outline: none;
+    border: 1px solid #e5e6ec;
+}
+
 .submit-btn {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
